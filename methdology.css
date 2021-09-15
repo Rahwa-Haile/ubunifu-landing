@@ -1,0 +1,400 @@
+body{
+    background-color:rgb(224,224,224);
+    overflow: hidden;
+    animation-name: body;
+    animation-delay: 0.6s;
+    animation-duration: 0.5s;
+    animation-fill-mode: backwards;
+}
+@keyframes body{
+    0%{
+        background-color: white;
+    }
+}
+.nav{
+    display: flex;
+    
+    }
+.logo{
+    height: 50px;
+    width: 140px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+ul{
+    display: flex;
+    list-style: none;
+    margin-top: 25px;
+    font-size:17px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    color:rgb(54,54,54);
+    margin-left: 83px;
+
+}
+li{
+    margin-left: 40px;
+
+    
+}
+.menu{
+    height: 20px;
+    width: 15px;
+    margin-top:25px;
+    margin-left: 150px;
+}
+.apply{
+    height: 33px;
+    width: 100px;
+    margin-left: 100px;
+    border-radius: 30px;
+    font-size: 10px;
+    margin-top: 18px;
+    border: none;
+    background-color: rgb(255,255,255);
+    z-index: 3; 
+
+}
+.apply:hover{
+    border: solid;
+    background-color: transparent;
+    color: white;
+    border-color: white;
+     
+}
+.play{
+    position: absolute;
+    height: 13px;
+    width: 13px;
+    right:60px;
+    top: 35px;
+    z-index: 5;
+}
+.flowerpot{
+    position: absolute;
+    height: 320px;
+    width: 370px;
+    top:-60px;
+    right: 30px;
+    animation-name: flower;
+    animation-duration: 2s;
+    
+}
+    @keyframes flower{
+        0%{
+            transform: translate(400px, -600px) rotate(110deg);
+            
+        }
+        100%{
+            transform: translate(0px, 0px);
+        }
+    }
+
+    
+
+
+.blackpen{
+    height: 330px;
+    position: absolute;
+    top: 240px;
+    right: 150px;
+    animation-name: blackpen;
+    animation-duration: 2s;
+    
+}
+@keyframes blackpen{
+    0%{
+        transform: translate(800px,0px) rotate(170deg);
+    }
+}
+.tablet{
+    height: 320px;
+    width: 480px;
+    position: absolute;
+    top: 340px;
+    right: -230px;
+    animation-name: tablet;
+    animation-duration:2s;
+
+}
+@keyframes tablet{
+   0%{transform: translate(800px, 0px) rotate(-120deg);} 
+}
+.monkey{
+    position: absolute;
+    height: 330px;
+    width: 423px;
+    left: -170px;
+    top: -65px;
+    animation-name: monkey;
+    animation-duration: 2s;
+}
+@keyframes monkey{
+    0%{
+        transform: translate(-450px,0px) rotate(-150deg);
+    }
+    100%{
+        transform: translate(0px, 0px);
+    }
+}
+.paper{
+    width:600px;
+    margin-left:-260px;
+    margin-top: 163px;
+    animation-name: paper;
+    animation-duration: 2s;
+    animation-delay: 0.2s;
+    animation-timing-function: ease-out;
+
+}
+@keyframes paper{
+    0%{
+        transform: translate(-400px,400px) rotate(50deg);
+    }
+}
+.redpen{
+    
+    position: absolute;
+    height: 250px;
+    top:430px;
+    left: 130px;
+    animation-name: redpen;
+    animation-duration: 1s;
+    animation-delay: 1.3s;
+    animation-timing-function: cubic-beizer(0.7);
+    animation-fill-mode: backwards;
+    
+}
+@keyframes redpen{
+    0%{
+        transform: translate(-20px, 150px) rotate(-60deg);
+    }
+}
+.marker{
+    height: 200px;
+    width: 135px;
+    position: absolute;
+    left: 90px;
+    bottom: 40px;
+    animation-name: marker;
+    animation-duration: 1s;
+    animation-delay: 1.2s;
+    animation-fill-mode: backwards;
+}
+@keyframes marker{
+    0%{
+        transform: translate(-20px, 150px) rotate(90deg);
+    }
+}
+
+
+.design{
+    text-align: center;
+    font-size: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(35,35,35);
+    position: absolute;
+    top:270px;
+    left: 570px;
+    animation-name: design;
+    animation-duration: 1.6s;
+    animation-delay: 0.3s;
+    animation-fill-mode: backwards;
+}
+@keyframes design{
+    0%{
+        opacity: 0;
+        transform: translate(-30px, 0px);
+        font-size: 20px;
+
+    }
+}
+
+.get{
+    color: white;
+    background-color:rgb(255,33,79);
+    height: 42px;
+    width: 155px;
+    border: none;
+    border-radius: 3px;
+    position: fixed;
+    top: 310px;
+    left: 555px;
+    animation-name: get;
+    animation-duration: 1.6s;
+    animation-delay: 0.3s;
+    animation-fill-mode: backwards;
+}
+
+@keyframes get{
+    0%{
+        transform: translate(0px, 80px) rotateX(-90deg);
+        opacity: 0;
+        
+    }
+}
+.get:hover{
+    color: white;
+    background-color: black;
+}
+.paperclip{
+    height: 65px;
+    width: 33px;
+    position: absolute;
+    top: 365px;
+    left: 260px;
+    animation-name: paperclip;
+    animation-delay: 1s;
+    animation-duration: 1.3s;
+    animation-timing-function: 0.8;
+}
+@keyframes paperclip{
+    0%{
+        transform: translate(-20px, 350px) rotate(-90deg);
+    }
+}
+.paperclip1{
+    height: 67px;
+    width: 30px;
+    position: absolute;
+    top: 340px;
+    left: 230px;
+    transform: skew(42deg);
+    animation-name: paperskew;
+    animation-duration: 1.3s;
+    animation-delay: 1s;
+    animation-timing-function: 0.8;
+
+}
+@keyframes paperskew{
+    0%{
+        transform: translate(-20px, 350px) rotate(140deg);
+    }
+}
+
+.last{
+    height: 47px;
+    width: 30px;
+    position: absolute;
+    bottom: 40px;
+    left: 620px;
+    background-color: transparent;
+    border-color: black;
+    border: solid;
+    border-radius: 80px;
+    border-width: thin;
+    
+}
+.dot{
+    height: 8px;
+    width: 8px;
+    background-color:transparent;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 35px;
+    left: 11px;
+    animation-name: dot;
+    animation-duration: 1s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: 0.2;
+
+}
+
+ @keyframes dot{
+    0%{
+        bottom: 35px;
+        left: 11px;
+        background-color: black;
+    }
+    100%{
+        transform: translate(0px, 20px);
+        background-color: transparent;
+    }
+   
+    
+} 
+
+.design2{
+    transform: translate(0px, -138px);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    font-weight:bolder;
+    text-align:center;
+    margin-top: 0px;
+    color: rgb(35,35,35);
+    animation-name: design2;
+    animation-duration: 2s;
+    animation-delay: 0.3s;
+    opacity: 0;
+    
+    }
+
+@keyframes design2{
+    0%{
+        transform: translate(-10px,-200px);
+        opacity: 1;
+        font-size: 70px;
+    }
+    100%{
+        transform: translate(0px, -155px);
+        opacity: 1;
+        font-size: 40px;
+    }
+    
+
+} 
+
+
+.build2{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    font-weight:bolder;
+    text-align:center;
+    margin-top: 0px;
+    color: rgb(35,35,35);
+    transform: translate(0px, -178px);
+    animation-name: build2;
+    animation-duration: 2s;
+    animation-delay: 2.3s;
+    opacity: 0;
+}
+@keyframes build2{
+    0%{
+        transform: translate(-20px,-300px);
+        opacity: 1;
+        font-size: 70px;
+    }
+    100%{
+        transform: translate(-20px, -240px);
+        opacity: 1;
+        font-size: 40px;
+    }
+} 
+.launch{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    font-weight:bolder;
+    text-align:center;
+    margin-top: -690px;
+    color: rgb(35,35,35);
+    animation-name: launch;
+    animation-duration: 1.5s;
+    animation-delay: 4.3s;
+    animation-fill-mode: backwards;
+    opacity: 1;
+}
+
+@keyframes launch{
+    0%{
+        transform: translate(-10px,-40px);
+        opacity: 0;
+        font-size: 70px;
+    }
+    100%{
+        transform: translate();
+        opacity: 1;
+        font-size: 40px;
+    }
+
+}

@@ -1,0 +1,190 @@
+header{
+    display: flex;
+    
+
+}
+img{
+    height: 50px;
+    width: 150px;
+    margin-left: 100px;
+}
+.playicon{
+    position: absolute;
+        height: 15px;
+        width:15px;
+        right: 155px;
+        top: 23px;
+}
+ul{
+    display:flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin-left: 10px;
+    color: white;
+    font-size: 25;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+li{
+    margin-left: 40px;
+}
+.description{
+    font-size: 95px;
+    font-weight: bold;
+    text-align: center ;
+    color: white;
+    margin-bottom: 0px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-image: url(images/swarestudent1.png);
+    background-size: cover;
+}
+.logo{
+    height :30px;
+    width: 50px;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+button{
+    width: 90px;
+    margin-left: 80px;
+    height: 30px;
+    margin-top: 10PX;
+    border-radius: 80px;
+    font-size: 10px;
+    text-align: left;
+}
+.School{
+    font-size: 20px;
+    font-weight: normal;
+    margin-top:none ;
+    text-align-last: center;
+    color: white;
+    margin-top: 0px;
+    margin-bottom:0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.build{
+    color: white;
+    background-color:rgb(255,33,79);
+    width: 250px;
+    margin-left: 50px;
+    height: 50px;
+    font-size: 15px;
+    margin-top: 0px;
+    border: none;
+    text-align: center;
+    }
+.circle{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-left: 619px;
+    margin-top: 10px;
+    background-color: rgb(51,122,183);
+
+}
+.build:hover{
+    border: solid;
+    border-color:rgb(255,33,79);
+    background-color: transparent;
+    color:rgb(255,33,79);
+}
+.define{
+    margin-top: 25px;
+    margin-bottom: 0px;
+}
+@media only screen and (max-width: 760px){
+    body{
+        background-position: center;
+        
+        
+    }
+    img{
+        height: 30px;
+        width: 90px;
+        margin-left: 5px;
+        margin-top: 5px;
+    }
+    nav{
+        display:none;
+    }
+    button{
+        width: 60px;
+        margin-left: 20px;
+        height: 20px;
+        margin-top: 13px;
+        border-radius: 80px;
+        font-size: 7px;
+        text-align: left;
+        position: relative;
+        border: none;
+    }
+    .button:hover{
+        border: solid;
+        background-color: transparent;
+        color: white;
+        border-color: white;
+    }
+    .playicon{
+        position: absolute;
+        height: 10px;
+        width:10px;
+        right: 15px;
+        top: 20px;
+
+    }
+    .logo{
+        height :15px;
+        width: 25px;
+        margin-top: 15px;
+        margin-left: 150px;
+    }
+
+    .define{
+        font-size: 27px;
+        margin-top: 160px;
+        margin-left:-0px;
+    }
+    .School{
+        font-size: 15px;
+        font-weight: normal;
+        margin-top: 5px;
+        margin-left: 0px;;
+        color: white;
+        
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .build{
+        color: white;
+        background-color:rgb(255,33,79);
+        width: 150px;
+        margin-left: -10px;
+        height: 30px;
+        font-size: 10px;
+        border: none;
+        text-align: center;
+        transform: translate(0px, -60px);
+        }
+    .build:hover{
+        border: solid;
+        border-color:rgb(255,33,79);
+        background-color: transparent; 
+        color:rgb(255,33,79);
+        }
+    .circle{
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+        background-color: rgb(51,122,183);
+        position: absolute;
+        left: -455px;
+        bottom: 150px;
+        
+        }
+    .arrow{
+        height: 27px;
+        width: 27px;
+        transform: translate(-3px, 2px);
+    }
+}

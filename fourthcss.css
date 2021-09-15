@@ -1,0 +1,255 @@
+body{
+    border-width: 38px 42px 0px 42px;
+    border-style: solid;
+    border-color: rgb(1,46,88);
+    border-radius: 10px;
+    margin: 0px 200px 0px 200px;
+    height: 600px ;
+    position: relative;
+}
+.div1{
+    display: flex;
+    
+    
+}
+ul{
+    display: flex;
+    flex-direction: ;
+    list-style: none;
+    margin-left: 120px;
+}
+
+li{
+    margin-left: 20px;
+    margin-top: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+.sign{
+    height: 27px;
+    margin-top: 30px;
+    margin-left: 40px;
+    border-radius: 50px 50px 0px 50px;
+    background-color: rgb(1,46,88);
+    color: white;
+    border: none;
+}
+.breeze
+{
+    margin-left: 40px;
+    margin-top: 25px;
+    font-size: 20px;
+    
+    font-weight: bolder;
+    color:rgb(1,46,88);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.circle1{
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    background-color: rgb(0,198,145);
+    margin-left: 120px; 
+    position: absolute;
+    top:-20px;
+    z-index: -1;
+    
+    
+    
+
+}
+.dropdown{
+    height: 10px;
+    width: 10px;
+}
+ .circle2{
+     height: 20px;
+     width: 20px;
+     border-radius: 50%;
+     background-color: rgb(241,49,64);
+     margin-left: 32px;
+     margin-top: 50px;
+ }
+.new{
+    font-size: 20px;
+    margin-bottom:0px;
+    margin-left: 40px;
+    color: rgb(183,103,93);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.trendy{
+    margin-left: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 35px;
+    font-weight:bolder;
+    color:rgb(1,46,87);
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.for{
+    font-size: 25px ;
+    margin-left: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 0px;
+    Margin-bottom: 0px;
+
+}
+
+.discover{
+    margin-left: 40px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:100;
+    font-size: 15px;
+    color: rgb(174,174,174);
+}
+.get{
+    height: 27px;
+    margin-top: 5px;
+    margin-left: 40px;
+    border-radius: 50px 50px 0px 50px;
+    background-color: rgb(255,88,70);
+    color: white;
+    border: none;
+    width: 100px;
+
+}
+.lefty{
+    margin-right: 0px;
+    position:relative
+}
+
+.bigcircle{
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    margin-left:420px;
+    background-image: url(images/shopping1.png.png);
+    background-size: 300px 300px;
+    margin-top: 0px;
+    position: absolute;
+    top: 110px;
+
+}
+.mediumcircle{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin-left:390px;
+    background-image: url(images/shopping2.png.png);
+    background-size: 100px 100px ;
+    margin-top: 0px;
+    position: absolute;
+    top: 140px;
+
+}
+.bluecircle{
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    margin-left:420px;
+    background-color:rgb(0,45,87);
+    margin-top: 0px;
+    position: absolute;
+    top: 330px;
+
+}
+.redcircle{
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    margin-left:755px;
+    background-color:rgb(255,88,70);
+   
+    position: absolute;
+    top: 80px;
+
+}
+.yellowcircle{
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    margin-right:755px;
+    background-color:rgb(255,155,0);
+    
+    position: absolute;
+    bottom: 180px;
+    left: -20px;
+    z-index: -2;
+}
+.jacket{
+    border-radius: 20px;
+    height:100px;
+    margin-left: 40px;
+    margin-top: 70px;
+}
+.rectangle{
+    height: 30px;
+    width: 133px;
+    background-color:rgb(255,255,216);
+    border-radius: 20px 20px 0px 0px;
+    margin-left: 40px;
+    margin-top: 15px;
+}
+.heels{
+    border-radius: 20px;
+    height:148px;
+    width:133px;
+    margin-left: 40px;
+    margin-top: 70px;
+    position:absolute;
+    top:355px;
+    left: 150px;
+
+}
+
+.line{
+    background-color:rgb(254,89,71);
+    height: 90px;
+    width: 5px;
+    position: absolute;
+    top: 450px;
+    left: 450px;
+}
+
+.bottomright{
+    display: flex;
+    flex-direction: column;
+    position:absolute;
+    top: 410px;
+    left: 300px;
+}
+.summer{
+    font-size: 23px;
+    font-weight: lighter;
+}
+.year{
+    font-weight: bolder;
+    font-size: 35px;
+    color: rgb(1,46,88);
+    position: absolute;
+    top: 30px;
+
+}
+.Arrival{
+    font-size: 23px;
+    font-weight: normal;
+    position: absolute;
+    top: 73px;
+
+}
+.lastcircle{
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    left: 650px;
+    background-color:rgb(0,198,145);
+    position: absolute;
+    bottom: 50px;
+    
+    
+
+}
